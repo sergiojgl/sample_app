@@ -32,9 +32,12 @@ gem 'sqlite3', '1.3.5'
 
 group :development do
   gem 'rspec-rails', '2.8.1'
+  gem 'annotate', '2.4.0'
 end
 
 group :test do
   gem 'rspec-rails', '2.8.1'
   gem 'webrat', '0.7.3'
 end
+
+# gem 'bundler', '1.1.3'
